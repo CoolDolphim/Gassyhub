@@ -1,0 +1,2564 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local GassyHub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Main = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Morphing = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local Badges = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local Troll = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local Universal = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local Automatic = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local Extra = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local Main_2 = Instance.new("ScrollingFrame")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_12 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_13 = Instance.new("UICorner")
+local Badges_2 = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local Morphing_2 = Instance.new("ScrollingFrame")
+local UICorner_15 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_17 = Instance.new("UICorner")
+local Badges_3 = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
+local Badges_4 = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+local Badges_5 = Instance.new("ScrollingFrame")
+local UICorner_20 = Instance.new("UICorner")
+local TextBox_4 = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local Badges_6 = Instance.new("TextButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_22 = Instance.new("UICorner")
+local TextBox_5 = Instance.new("TextBox")
+local UICorner_23 = Instance.new("UICorner")
+local Badges_7 = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_24 = Instance.new("UICorner")
+local Badges_8 = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_25 = Instance.new("UICorner")
+local Troll_2 = Instance.new("ScrollingFrame")
+local UICorner_26 = Instance.new("UICorner")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Badges_9 = Instance.new("TextButton")
+local UIGradient_15 = Instance.new("UIGradient")
+local UICorner_27 = Instance.new("UICorner")
+local Badges_10 = Instance.new("TextButton")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_28 = Instance.new("UICorner")
+local Badges_11 = Instance.new("TextButton")
+local UIGradient_17 = Instance.new("UIGradient")
+local UICorner_29 = Instance.new("UICorner")
+local Badges_12 = Instance.new("TextButton")
+local UIGradient_18 = Instance.new("UIGradient")
+local UICorner_30 = Instance.new("UICorner")
+local Badges_13 = Instance.new("TextButton")
+local UIGradient_19 = Instance.new("UIGradient")
+local UICorner_31 = Instance.new("UICorner")
+local Badges_14 = Instance.new("TextButton")
+local UIGradient_20 = Instance.new("UIGradient")
+local UICorner_32 = Instance.new("UICorner")
+local TextBox_6 = Instance.new("TextBox")
+local UICorner_33 = Instance.new("UICorner")
+local Badges_15 = Instance.new("TextButton")
+local UIGradient_21 = Instance.new("UIGradient")
+local UICorner_34 = Instance.new("UICorner")
+local Badges_16 = Instance.new("TextButton")
+local UIGradient_22 = Instance.new("UIGradient")
+local UICorner_35 = Instance.new("UICorner")
+local Badges_17 = Instance.new("TextButton")
+local UIGradient_23 = Instance.new("UIGradient")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Universal_2 = Instance.new("ScrollingFrame")
+local UICorner_37 = Instance.new("UICorner")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local Badges_18 = Instance.new("TextButton")
+local UIGradient_24 = Instance.new("UIGradient")
+local UICorner_38 = Instance.new("UICorner")
+local Badges_19 = Instance.new("TextButton")
+local UIGradient_25 = Instance.new("UIGradient")
+local UICorner_39 = Instance.new("UICorner")
+local Automatic_2 = Instance.new("ScrollingFrame")
+local UICorner_40 = Instance.new("UICorner")
+local UIListLayout_6 = Instance.new("UIListLayout")
+local Badges_20 = Instance.new("TextButton")
+local UIGradient_26 = Instance.new("UIGradient")
+local UICorner_41 = Instance.new("UICorner")
+local Badges_21 = Instance.new("TextButton")
+local UIGradient_27 = Instance.new("UIGradient")
+local UICorner_42 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_43 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+
+--Properties:
+
+GassyHub.Name = "GassyHub"
+GassyHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GassyHub.DisplayOrder = 900000000
+GassyHub.ResetOnSpawn = false
+
+Frame.Parent = GassyHub
+Frame.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.269656986, 2, 0.208441004, 0)
+Frame.Size = UDim2.new(0, 1008, 0, 636)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient.Rotation = 90
+UIGradient.Parent = Frame
+
+UICorner.Parent = Frame
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-0.171130955, 0, -0.0715408772, 0)
+ImageLabel.Rotation = 180.000
+ImageLabel.Size = UDim2.new(0, 1399, 0, 363)
+ImageLabel.Image = "rbxassetid://14657035983"
+ImageLabel.ImageTransparency = 0.820
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.266865075, 0, 0.0172955971, 0)
+TextLabel.Size = UDim2.new(0, 517, 0, 51)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "GassyHub"
+TextLabel.TextColor3 = Color3.fromRGB(89, 15, 162)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(65, 14, 116)
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = Frame
+Main.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.0128968256, 0, 0.171383649, 0)
+Main.Size = UDim2.new(0, 136, 0, 54)
+Main.Font = Enum.Font.FredokaOne
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(238, 0, 255)
+Main.TextScaled = true
+Main.TextSize = 14.000
+Main.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Main.TextStrokeTransparency = 0.000
+Main.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = Main
+
+UICorner_2.Parent = Main
+
+Morphing.Name = "Morphing"
+Morphing.Parent = Frame
+Morphing.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Morphing.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Morphing.BorderSizePixel = 0
+Morphing.Position = UDim2.new(0.0128968256, 0, 0.281446546, 0)
+Morphing.Size = UDim2.new(0, 136, 0, 54)
+Morphing.Font = Enum.Font.FredokaOne
+Morphing.Text = "Morphing"
+Morphing.TextColor3 = Color3.fromRGB(238, 0, 255)
+Morphing.TextScaled = true
+Morphing.TextSize = 14.000
+Morphing.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Morphing.TextStrokeTransparency = 0.000
+Morphing.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = Morphing
+
+UICorner_3.Parent = Morphing
+
+Badges.Name = "Badges"
+Badges.Parent = Frame
+Badges.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges.BorderSizePixel = 0
+Badges.Position = UDim2.new(0.0128968256, 0, 0.386792451, 0)
+Badges.Size = UDim2.new(0, 136, 0, 54)
+Badges.Font = Enum.Font.FredokaOne
+Badges.Text = "Badges"
+Badges.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges.TextScaled = true
+Badges.TextSize = 14.000
+Badges.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges.TextStrokeTransparency = 0.000
+Badges.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_4.Rotation = 90
+UIGradient_4.Parent = Badges
+
+UICorner_4.Parent = Badges
+
+Troll.Name = "Troll"
+Troll.Parent = Frame
+Troll.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Troll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Troll.BorderSizePixel = 0
+Troll.Position = UDim2.new(0.0128968256, 0, 0.498427659, 0)
+Troll.Size = UDim2.new(0, 136, 0, 54)
+Troll.Font = Enum.Font.FredokaOne
+Troll.Text = "Troll"
+Troll.TextColor3 = Color3.fromRGB(238, 0, 255)
+Troll.TextScaled = true
+Troll.TextSize = 14.000
+Troll.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Troll.TextStrokeTransparency = 0.000
+Troll.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_5.Rotation = 90
+UIGradient_5.Parent = Troll
+
+UICorner_5.Parent = Troll
+
+Universal.Name = "Universal"
+Universal.Parent = Frame
+Universal.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Universal.BorderSizePixel = 0
+Universal.Position = UDim2.new(0.0128968256, 0, 0.605345905, 0)
+Universal.Size = UDim2.new(0, 136, 0, 54)
+Universal.Font = Enum.Font.FredokaOne
+Universal.Text = "Universal"
+Universal.TextColor3 = Color3.fromRGB(238, 0, 255)
+Universal.TextScaled = true
+Universal.TextSize = 14.000
+Universal.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Universal.TextStrokeTransparency = 0.000
+Universal.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_6.Rotation = 90
+UIGradient_6.Parent = Universal
+
+UICorner_6.Parent = Universal
+
+Automatic.Name = "Automatic"
+Automatic.Parent = Frame
+Automatic.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Automatic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Automatic.BorderSizePixel = 0
+Automatic.Position = UDim2.new(0.0128968256, 0, 0.707547188, 0)
+Automatic.Size = UDim2.new(0, 136, 0, 54)
+Automatic.Font = Enum.Font.FredokaOne
+Automatic.Text = "Automatic"
+Automatic.TextColor3 = Color3.fromRGB(238, 0, 255)
+Automatic.TextScaled = true
+Automatic.TextSize = 14.000
+Automatic.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Automatic.TextStrokeTransparency = 0.000
+Automatic.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_7.Rotation = 90
+UIGradient_7.Parent = Automatic
+
+UICorner_7.Parent = Automatic
+
+Extra.Name = "Extra"
+Extra.Parent = Frame
+Extra.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Extra.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Extra.BorderSizePixel = 0
+Extra.Position = UDim2.new(0.0128968256, 0, 0.816037714, 0)
+Extra.Size = UDim2.new(0, 136, 0, 54)
+Extra.Visible = false
+Extra.Font = Enum.Font.FredokaOne
+Extra.Text = "Extra"
+Extra.TextColor3 = Color3.fromRGB(238, 0, 255)
+Extra.TextScaled = true
+Extra.TextSize = 14.000
+Extra.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Extra.TextStrokeTransparency = 0.000
+Extra.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_8.Rotation = 90
+UIGradient_8.Parent = Extra
+
+UICorner_8.Parent = Extra
+
+Main_2.Name = "Main"
+Main_2.Parent = Frame
+Main_2.Active = true
+Main_2.BackgroundColor3 = Color3.fromRGB(23, 1, 68)
+Main_2.BackgroundTransparency = 0.900
+Main_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main_2.BorderSizePixel = 0
+Main_2.Position = UDim2.new(0.18650794, 0, 0.15408805, 0)
+Main_2.Size = UDim2.new(0, 773, 0, 475)
+Main_2.CanvasSize = UDim2.new(0, 0, 0.699999988, 0)
+
+UICorner_9.Parent = Main_2
+
+TextLabel_2.Parent = Main_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(51, 19, 147)
+TextLabel_2.BackgroundTransparency = 0.800
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 773, 0, 100)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "GassyHub - My singing Monsters RP"
+TextLabel_2.TextColor3 = Color3.fromRGB(74, 4, 179)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_10.Parent = TextLabel_2
+
+TextLabel_3.Parent = Main_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(51, 19, 147)
+TextLabel_3.BackgroundTransparency = 0.800
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.210526317, 0)
+TextLabel_3.Size = UDim2.new(0, 773, 0, 48)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "Thanks for trying my script :P"
+TextLabel_3.TextColor3 = Color3.fromRGB(74, 4, 179)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_11.Parent = TextLabel_3
+
+TextBox.Parent = Main_2
+TextBox.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+TextBox.BackgroundTransparency = 0.800
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0, 0, 0.311578959, 0)
+TextBox.Size = UDim2.new(0, 773, 0, 71)
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.PlaceholderColor3 = Color3.fromRGB(2, 0, 67)
+TextBox.PlaceholderText = "Walkspeed"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(98, 40, 156)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_12.Parent = TextBox
+
+UIListLayout.Parent = Main_2
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0.0500000007, 0)
+
+TextBox_2.Parent = Main_2
+TextBox_2.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+TextBox_2.BackgroundTransparency = 0.800
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0, 0, 0.311578959, 0)
+TextBox_2.Size = UDim2.new(0, 773, 0, 71)
+TextBox_2.Font = Enum.Font.FredokaOne
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(2, 0, 67)
+TextBox_2.PlaceholderText = "JumpPower"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(98, 40, 156)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+UICorner_13.Parent = TextBox_2
+
+Badges_2.Name = "Badges"
+Badges_2.Parent = Main_2
+Badges_2.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_2.BorderSizePixel = 0
+Badges_2.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_2.Size = UDim2.new(0, 747, 0, 76)
+Badges_2.Font = Enum.Font.FredokaOne
+Badges_2.Text = "Lag yourself"
+Badges_2.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_2.TextScaled = true
+Badges_2.TextSize = 14.000
+Badges_2.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_2.TextStrokeTransparency = 0.000
+Badges_2.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_9.Rotation = 90
+UIGradient_9.Parent = Badges_2
+
+UICorner_14.Parent = Badges_2
+
+Morphing_2.Name = "Morphing"
+Morphing_2.Parent = Frame
+Morphing_2.Active = true
+Morphing_2.BackgroundColor3 = Color3.fromRGB(23, 1, 68)
+Morphing_2.BackgroundTransparency = 0.900
+Morphing_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Morphing_2.BorderSizePixel = 0
+Morphing_2.Position = UDim2.new(0.18650794, 0, 0.15408805, 0)
+Morphing_2.Size = UDim2.new(0, 773, 0, 475)
+Morphing_2.Visible = false
+Morphing_2.CanvasSize = UDim2.new(0, 0, 0.699999988, 0)
+
+UICorner_15.Parent = Morphing_2
+
+UIListLayout_2.Parent = Morphing_2
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0.0500000007, 0)
+
+TextLabel_4.Parent = Morphing_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(51, 19, 147)
+TextLabel_4.BackgroundTransparency = 0.800
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0, 307, 0, 111)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "Morph Into Monster"
+TextLabel_4.TextColor3 = Color3.fromRGB(74, 4, 179)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_16.Parent = TextLabel_4
+
+TextBox_3.Parent = TextLabel_4
+TextBox_3.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+TextBox_3.BackgroundTransparency = 0.800
+TextBox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.BorderSizePixel = 0
+TextBox_3.Position = UDim2.new(1, 0, 0, 0)
+TextBox_3.Size = UDim2.new(0, 440, 0, 111)
+TextBox_3.Font = Enum.Font.FredokaOne
+TextBox_3.PlaceholderColor3 = Color3.fromRGB(2, 0, 67)
+TextBox_3.PlaceholderText = "Monster or smth idk"
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(98, 40, 156)
+TextBox_3.TextScaled = true
+TextBox_3.TextSize = 14.000
+TextBox_3.TextWrapped = true
+
+UICorner_17.Parent = TextBox_3
+
+Badges_3.Name = "Badges"
+Badges_3.Parent = Morphing_2
+Badges_3.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_3.BorderSizePixel = 0
+Badges_3.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_3.Size = UDim2.new(0, 747, 0, 76)
+Badges_3.Font = Enum.Font.FredokaOne
+Badges_3.Text = "Teleport to Shop"
+Badges_3.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_3.TextScaled = true
+Badges_3.TextSize = 14.000
+Badges_3.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_3.TextStrokeTransparency = 0.000
+Badges_3.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_10.Rotation = 90
+UIGradient_10.Parent = Badges_3
+
+UICorner_18.Parent = Badges_3
+
+Badges_4.Name = "Badges"
+Badges_4.Parent = Morphing_2
+Badges_4.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_4.BorderSizePixel = 0
+Badges_4.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_4.Size = UDim2.new(0, 747, 0, 76)
+Badges_4.Font = Enum.Font.FredokaOne
+Badges_4.Text = "FE Emote user"
+Badges_4.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_4.TextScaled = true
+Badges_4.TextSize = 14.000
+Badges_4.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_4.TextStrokeTransparency = 0.000
+Badges_4.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_11.Rotation = 90
+UIGradient_11.Parent = Badges_4
+
+UICorner_19.Parent = Badges_4
+
+Badges_5.Name = "Badges"
+Badges_5.Parent = Frame
+Badges_5.Active = true
+Badges_5.BackgroundColor3 = Color3.fromRGB(23, 1, 68)
+Badges_5.BackgroundTransparency = 0.900
+Badges_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_5.BorderSizePixel = 0
+Badges_5.Position = UDim2.new(0.18650794, 0, 0.15408805, 0)
+Badges_5.Size = UDim2.new(0, 773, 0, 475)
+Badges_5.Visible = false
+Badges_5.CanvasSize = UDim2.new(0, 0, 0.699999988, 0)
+
+UICorner_20.Parent = Badges_5
+
+TextBox_4.Parent = Badges_5
+TextBox_4.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+TextBox_4.BackgroundTransparency = 0.800
+TextBox_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_4.BorderSizePixel = 0
+TextBox_4.Size = UDim2.new(0, 759, 0, 65)
+TextBox_4.Font = Enum.Font.FredokaOne
+TextBox_4.PlaceholderColor3 = Color3.fromRGB(2, 0, 67)
+TextBox_4.PlaceholderText = "Own in Morphs (DELTA, ARCEUS, CODEX, BYFRON, ETC. ONLY)"
+TextBox_4.Text = ""
+TextBox_4.TextColor3 = Color3.fromRGB(98, 40, 156)
+TextBox_4.TextScaled = true
+TextBox_4.TextSize = 14.000
+TextBox_4.TextWrapped = true
+
+UICorner_21.Parent = TextBox_4
+
+UIListLayout_3.Parent = Badges_5
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0.0500000007, 0)
+
+Badges_6.Name = "Badges"
+Badges_6.Parent = Badges_5
+Badges_6.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_6.BorderSizePixel = 0
+Badges_6.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_6.Size = UDim2.new(0, 747, 0, 76)
+Badges_6.Font = Enum.Font.FredokaOne
+Badges_6.Text = "Rare Wolabee (Temp)"
+Badges_6.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_6.TextScaled = true
+Badges_6.TextSize = 14.000
+Badges_6.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_6.TextStrokeTransparency = 0.000
+Badges_6.TextWrapped = true
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_12.Rotation = 90
+UIGradient_12.Parent = Badges_6
+
+UICorner_22.Parent = Badges_6
+
+TextBox_5.Parent = Badges_5
+TextBox_5.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+TextBox_5.BackgroundTransparency = 0.800
+TextBox_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_5.BorderSizePixel = 0
+TextBox_5.Size = UDim2.new(0, 759, 0, 65)
+TextBox_5.Font = Enum.Font.FredokaOne
+TextBox_5.PlaceholderColor3 = Color3.fromRGB(2, 0, 67)
+TextBox_5.PlaceholderText = "Fake Leaderstats"
+TextBox_5.Text = ""
+TextBox_5.TextColor3 = Color3.fromRGB(98, 40, 156)
+TextBox_5.TextScaled = true
+TextBox_5.TextSize = 14.000
+TextBox_5.TextWrapped = true
+
+UICorner_23.Parent = TextBox_5
+
+Badges_7.Name = "Badges"
+Badges_7.Parent = Badges_5
+Badges_7.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_7.BorderSizePixel = 0
+Badges_7.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_7.Size = UDim2.new(0, 747, 0, 76)
+Badges_7.Font = Enum.Font.FredokaOne
+Badges_7.Text = "Cursed Leaderstats"
+Badges_7.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_7.TextScaled = true
+Badges_7.TextSize = 14.000
+Badges_7.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_7.TextStrokeTransparency = 0.000
+Badges_7.TextWrapped = true
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_13.Rotation = 90
+UIGradient_13.Parent = Badges_7
+
+UICorner_24.Parent = Badges_7
+
+Badges_8.Name = "Badges"
+Badges_8.Parent = Badges_5
+Badges_8.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_8.BorderSizePixel = 0
+Badges_8.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_8.Size = UDim2.new(0, 747, 0, 76)
+Badges_8.Font = Enum.Font.FredokaOne
+Badges_8.Text = "Anti-touch killparts (and glass bridge)"
+Badges_8.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_8.TextScaled = true
+Badges_8.TextSize = 14.000
+Badges_8.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_8.TextStrokeTransparency = 0.000
+Badges_8.TextWrapped = true
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_14.Rotation = 90
+UIGradient_14.Parent = Badges_8
+
+UICorner_25.Parent = Badges_8
+
+Troll_2.Name = "Troll"
+Troll_2.Parent = Frame
+Troll_2.Active = true
+Troll_2.BackgroundColor3 = Color3.fromRGB(23, 1, 68)
+Troll_2.BackgroundTransparency = 0.900
+Troll_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Troll_2.BorderSizePixel = 0
+Troll_2.Position = UDim2.new(0.18650794, 0, 0.15408805, 0)
+Troll_2.Size = UDim2.new(0, 773, 0, 475)
+Troll_2.Visible = false
+Troll_2.CanvasSize = UDim2.new(0, 0, 0.699999988, 0)
+
+UICorner_26.Parent = Troll_2
+
+UIListLayout_4.Parent = Troll_2
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0.0500000007, 0)
+
+Badges_9.Name = "Badges"
+Badges_9.Parent = Troll_2
+Badges_9.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_9.BorderSizePixel = 0
+Badges_9.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_9.Size = UDim2.new(0, 747, 0, 76)
+Badges_9.Font = Enum.Font.FredokaOne
+Badges_9.Text = "Sing All"
+Badges_9.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_9.TextScaled = true
+Badges_9.TextSize = 14.000
+Badges_9.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_9.TextStrokeTransparency = 0.000
+Badges_9.TextWrapped = true
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_15.Rotation = 90
+UIGradient_15.Parent = Badges_9
+
+UICorner_27.Parent = Badges_9
+
+Badges_10.Name = "Badges"
+Badges_10.Parent = Troll_2
+Badges_10.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_10.BorderSizePixel = 0
+Badges_10.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_10.Size = UDim2.new(0, 747, 0, 76)
+Badges_10.Font = Enum.Font.FredokaOne
+Badges_10.Text = "Stutter All Sing"
+Badges_10.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_10.TextScaled = true
+Badges_10.TextSize = 14.000
+Badges_10.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_10.TextStrokeTransparency = 0.000
+Badges_10.TextWrapped = true
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_16.Rotation = 90
+UIGradient_16.Parent = Badges_10
+
+UICorner_28.Parent = Badges_10
+
+Badges_11.Name = "Badges"
+Badges_11.Parent = Troll_2
+Badges_11.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_11.BorderSizePixel = 0
+Badges_11.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_11.Size = UDim2.new(0, 747, 0, 76)
+Badges_11.Font = Enum.Font.FredokaOne
+Badges_11.Text = "Dragong void (Rejoin to reset + kinda broken)"
+Badges_11.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_11.TextScaled = true
+Badges_11.TextSize = 14.000
+Badges_11.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_11.TextStrokeTransparency = 0.000
+Badges_11.TextWrapped = true
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_17.Rotation = 90
+UIGradient_17.Parent = Badges_11
+
+UICorner_29.Parent = Badges_11
+
+Badges_12.Name = "Badges"
+Badges_12.Parent = Troll_2
+Badges_12.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_12.BorderSizePixel = 0
+Badges_12.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_12.Size = UDim2.new(0, 747, 0, 76)
+Badges_12.Font = Enum.Font.FredokaOne
+Badges_12.Text = "Baby Nitebear (Annoy players)"
+Badges_12.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_12.TextScaled = true
+Badges_12.TextSize = 14.000
+Badges_12.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_12.TextStrokeTransparency = 0.000
+Badges_12.TextWrapped = true
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_18.Rotation = 90
+UIGradient_18.Parent = Badges_12
+
+UICorner_30.Parent = Badges_12
+
+Badges_13.Name = "Badges"
+Badges_13.Parent = Troll_2
+Badges_13.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_13.BorderSizePixel = 0
+Badges_13.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_13.Size = UDim2.new(0, 747, 0, 76)
+Badges_13.Font = Enum.Font.FredokaOne
+Badges_13.Text = "BACKSHOT (Annoy players)"
+Badges_13.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_13.TextScaled = true
+Badges_13.TextSize = 14.000
+Badges_13.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_13.TextStrokeTransparency = 0.000
+Badges_13.TextWrapped = true
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_19.Rotation = 90
+UIGradient_19.Parent = Badges_13
+
+UICorner_31.Parent = Badges_13
+
+Badges_14.Name = "Badges"
+Badges_14.Parent = Troll_2
+Badges_14.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_14.BorderSizePixel = 0
+Badges_14.Position = UDim2.new(0.587322116, 0, 0.591549277, 0)
+Badges_14.Size = UDim2.new(0, 293, 0, 76)
+Badges_14.Font = Enum.Font.FredokaOne
+Badges_14.Text = "PomPom cheer text"
+Badges_14.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_14.TextScaled = true
+Badges_14.TextSize = 14.000
+Badges_14.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_14.TextStrokeTransparency = 0.000
+Badges_14.TextWrapped = true
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_20.Rotation = 90
+UIGradient_20.Parent = Badges_14
+
+UICorner_32.Parent = Badges_14
+
+TextBox_6.Parent = Badges_14
+TextBox_6.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+TextBox_6.BackgroundTransparency = 0.800
+TextBox_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_6.BorderSizePixel = 0
+TextBox_6.Position = UDim2.new(1, 0, 0, 0)
+TextBox_6.Size = UDim2.new(0, 440, 0, 76)
+TextBox_6.Font = Enum.Font.FredokaOne
+TextBox_6.PlaceholderColor3 = Color3.fromRGB(1, 0, 50)
+TextBox_6.PlaceholderText = "Say something with PomPom"
+TextBox_6.Text = ""
+TextBox_6.TextColor3 = Color3.fromRGB(98, 40, 156)
+TextBox_6.TextScaled = true
+TextBox_6.TextSize = 14.000
+TextBox_6.TextWrapped = true
+
+UICorner_33.Parent = TextBox_6
+
+Badges_15.Name = "Badges"
+Badges_15.Parent = Troll_2
+Badges_15.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_15.BorderSizePixel = 0
+Badges_15.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_15.Size = UDim2.new(0, 747, 0, 76)
+Badges_15.Font = Enum.Font.FredokaOne
+Badges_15.Text = "Voidcorn? (Haunt players but you gotta stare at them for 5s)"
+Badges_15.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_15.TextScaled = true
+Badges_15.TextSize = 14.000
+Badges_15.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_15.TextStrokeTransparency = 0.000
+Badges_15.TextWrapped = true
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_21.Rotation = 90
+UIGradient_21.Parent = Badges_15
+
+UICorner_34.Parent = Badges_15
+
+Badges_16.Name = "Badges"
+Badges_16.Parent = Troll_2
+Badges_16.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_16.BorderSizePixel = 0
+Badges_16.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_16.Size = UDim2.new(0, 747, 0, 76)
+Badges_16.Font = Enum.Font.FredokaOne
+Badges_16.Text = "Skinwalker"
+Badges_16.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_16.TextScaled = true
+Badges_16.TextSize = 14.000
+Badges_16.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_16.TextStrokeTransparency = 0.000
+Badges_16.TextWrapped = true
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_22.Rotation = 90
+UIGradient_22.Parent = Badges_16
+
+UICorner_35.Parent = Badges_16
+
+Badges_17.Name = "Badges"
+Badges_17.Parent = Troll_2
+Badges_17.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_17.BorderSizePixel = 0
+Badges_17.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_17.Size = UDim2.new(0, 747, 0, 76)
+Badges_17.Font = Enum.Font.FredokaOne
+Badges_17.Text = "Way o wayy yaeh (Jumpscare players)"
+Badges_17.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_17.TextScaled = true
+Badges_17.TextSize = 14.000
+Badges_17.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_17.TextStrokeTransparency = 0.000
+Badges_17.TextWrapped = true
+
+UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_23.Rotation = 90
+UIGradient_23.Parent = Badges_17
+
+UICorner_36.Parent = Badges_17
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.266865075, 0, 0.0864779875, 0)
+TextLabel_5.Size = UDim2.new(0, 517, 0, 34)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "(Still updating as of April 2026)"
+TextLabel_5.TextColor3 = Color3.fromRGB(89, 15, 162)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(65, 14, 116)
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextWrapped = true
+
+Universal_2.Name = "Universal"
+Universal_2.Parent = Frame
+Universal_2.Active = true
+Universal_2.BackgroundColor3 = Color3.fromRGB(23, 1, 68)
+Universal_2.BackgroundTransparency = 0.900
+Universal_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Universal_2.BorderSizePixel = 0
+Universal_2.Position = UDim2.new(0.18650794, 0, 0.15408805, 0)
+Universal_2.Size = UDim2.new(0, 773, 0, 475)
+Universal_2.Visible = false
+Universal_2.CanvasSize = UDim2.new(0, 0, 0.699999988, 0)
+
+UICorner_37.Parent = Universal_2
+
+UIListLayout_5.Parent = Universal_2
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0.0500000007, 0)
+
+Badges_18.Name = "Badges"
+Badges_18.Parent = Universal_2
+Badges_18.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_18.BorderSizePixel = 0
+Badges_18.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_18.Size = UDim2.new(0, 747, 0, 76)
+Badges_18.Font = Enum.Font.FredokaOne
+Badges_18.Text = "Infinite yield"
+Badges_18.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_18.TextScaled = true
+Badges_18.TextSize = 14.000
+Badges_18.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_18.TextStrokeTransparency = 0.000
+Badges_18.TextWrapped = true
+
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_24.Rotation = 90
+UIGradient_24.Parent = Badges_18
+
+UICorner_38.Parent = Badges_18
+
+Badges_19.Name = "Badges"
+Badges_19.Parent = Universal_2
+Badges_19.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_19.BorderSizePixel = 0
+Badges_19.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_19.Size = UDim2.new(0, 747, 0, 76)
+Badges_19.Font = Enum.Font.FredokaOne
+Badges_19.Text = "Nameless admin"
+Badges_19.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_19.TextScaled = true
+Badges_19.TextSize = 14.000
+Badges_19.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_19.TextStrokeTransparency = 0.000
+Badges_19.TextWrapped = true
+
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_25.Rotation = 90
+UIGradient_25.Parent = Badges_19
+
+UICorner_39.Parent = Badges_19
+
+Automatic_2.Name = "Automatic"
+Automatic_2.Parent = Frame
+Automatic_2.Active = true
+Automatic_2.BackgroundColor3 = Color3.fromRGB(23, 1, 68)
+Automatic_2.BackgroundTransparency = 0.900
+Automatic_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Automatic_2.BorderSizePixel = 0
+Automatic_2.Position = UDim2.new(0.18650794, 0, 0.15408805, 0)
+Automatic_2.Size = UDim2.new(0, 773, 0, 475)
+Automatic_2.Visible = false
+Automatic_2.CanvasSize = UDim2.new(0, 0, 0.699999988, 0)
+
+UICorner_40.Parent = Automatic_2
+
+UIListLayout_6.Parent = Automatic_2
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Padding = UDim.new(0.0500000007, 0)
+
+Badges_20.Name = "Badges"
+Badges_20.Parent = Automatic_2
+Badges_20.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_20.BorderSizePixel = 0
+Badges_20.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_20.Size = UDim2.new(0, 747, 0, 76)
+Badges_20.Font = Enum.Font.FredokaOne
+Badges_20.Text = "Coin autofarm (Pickup method)"
+Badges_20.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_20.TextScaled = true
+Badges_20.TextSize = 14.000
+Badges_20.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_20.TextStrokeTransparency = 0.000
+Badges_20.TextWrapped = true
+
+UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_26.Rotation = 90
+UIGradient_26.Parent = Badges_20
+
+UICorner_41.Parent = Badges_20
+
+Badges_21.Name = "Badges"
+Badges_21.Parent = Automatic_2
+Badges_21.BackgroundColor3 = Color3.fromRGB(17, 5, 106)
+Badges_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Badges_21.BorderSizePixel = 0
+Badges_21.Position = UDim2.new(0, 0, 0.233684212, 0)
+Badges_21.Size = UDim2.new(0, 747, 0, 76)
+Badges_21.Font = Enum.Font.FredokaOne
+Badges_21.Text = "Coin autofarm (Theather method)"
+Badges_21.TextColor3 = Color3.fromRGB(238, 0, 255)
+Badges_21.TextScaled = true
+Badges_21.TextSize = 14.000
+Badges_21.TextStrokeColor3 = Color3.fromRGB(115, 12, 156)
+Badges_21.TextStrokeTransparency = 0.000
+Badges_21.TextWrapped = true
+
+UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 216, 125))}
+UIGradient_27.Rotation = 90
+UIGradient_27.Parent = Badges_21
+
+UICorner_42.Parent = Badges_21
+
+TextLabel_6.Parent = Automatic_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(51, 19, 147)
+TextLabel_6.BackgroundTransparency = 0.800
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, 0.412231028, 0)
+TextLabel_6.Size = UDim2.new(0, 747, 0, 85)
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = "Still WIP need to add chest autofarm soon"
+TextLabel_6.TextColor3 = Color3.fromRGB(74, 4, 179)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UICorner_43.Parent = TextLabel_6
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.93650794, 0, 0.0172955971, 0)
+ImageButton.Size = UDim2.new(0, 52, 0, 51)
+ImageButton.Image = "rbxassetid://7436812392"
+
+-- Scripts:
+
+local function BEKW_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(BEKW_fake_script)()
+local function JBBSVO_fake_script() -- Morphing.LocalScript 
+	local script = Instance.new('LocalScript', Morphing)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(JBBSVO_fake_script)()
+local function XCKEIXE_fake_script() -- Badges.LocalScript 
+	local script = Instance.new('LocalScript', Badges)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(XCKEIXE_fake_script)()
+local function YGFB_fake_script() -- Troll.LocalScript 
+	local script = Instance.new('LocalScript', Troll)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(YGFB_fake_script)()
+local function REHOS_fake_script() -- Universal.LocalScript 
+	local script = Instance.new('LocalScript', Universal)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(REHOS_fake_script)()
+local function SOIIVUZ_fake_script() -- Automatic.LocalScript 
+	local script = Instance.new('LocalScript', Automatic)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(SOIIVUZ_fake_script)()
+local function NWVBUWG_fake_script() -- Extra.LocalScript 
+	local script = Instance.new('LocalScript', Extra)
+
+	local button = script.Parent
+	local parentGui = button.Parent -- Assuming the button is in a Frame containing the ScrollFrames
+	local buttonName = button.Name
+	
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all children of parentGui
+		for _, child in ipairs(parentGui:GetChildren()) do
+			-- Check if child is a ScrollingFrame
+			if child:IsA("ScrollingFrame") then
+				-- Make the ScrollFrame visible only if its name matches the button
+				if child.Name == buttonName then
+					child.Visible = true
+				else
+					child.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(NWVBUWG_fake_script)()
+local function TLWG_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local textBox = script.Parent
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	-- Function to handle Enter
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local value = tonumber(textBox.Text)
+			if value then
+				humanoid.WalkSpeed = value
+				print("WalkSpeed set to:", value)
+			else
+				warn("Invalid WalkSpeed value")
+			end
+		end
+	end)
+end
+coroutine.wrap(TLWG_fake_script)()
+local function LBQAKUS_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	local textBox = script.Parent
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	-- Function to handle Enter
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			local value = tonumber(textBox.Text)
+			if value then
+				humanoid.JumpPower = value
+				print("JumpPower set to:", value)
+			else
+				warn("Invalid JumpPower value")
+			end
+		end
+	end)
+end
+coroutine.wrap(LBQAKUS_fake_script)()
+local function FKAJF_fake_script() -- Badges_2.LocalScript 
+	local script = Instance.new('LocalScript', Badges_2)
+
+	local RunService = game:GetService("RunService")
+	
+	for _, part in ipairs(workspace:GetDescendants()) do
+		if part:IsA("BasePart") then
+			RunService.RenderStepped:Connect(function()
+				part.CFrame = part.CFrame * CFrame.new(
+					math.random(-1,1)/500,
+					0,
+					math.random(-1,1)/500
+				)
+			end)
+		end
+	end
+end
+coroutine.wrap(FKAJF_fake_script)()
+local function ZBKRAT_fake_script() -- TextBox_3.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_3)
+
+	local textBox = script.Parent
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	-- Function to handle Enter
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			
+			local text = textBox.Text
+			
+			local args = {
+				[1] = text
+			}
+	
+			game:GetService("ReplicatedStorage").MorphEvent:FireServer(unpack(args))
+	
+			
+			
+		end
+	end)
+end
+coroutine.wrap(ZBKRAT_fake_script)()
+local function GNBN_fake_script() -- Badges_3.LocalScript 
+	local script = Instance.new('LocalScript', Badges_3)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local tppart = workspace.DistantHomes.Theater.light:GetChildren()[8].hanging_light
+		
+		local char = game.Players.LocalPlayer.Character
+		char.HumanoidRootPart.CFrame = tppart.CFrame
+	end)
+end
+coroutine.wrap(GNBN_fake_script)()
+local function ZSZFZTJ_fake_script() -- Badges_4.LocalScript 
+	local script = Instance.new('LocalScript', Badges_4)
+
+	--[[Animations Copied
+	
+	Name: cartruck
+	Animation Id: rbxassetid://76503595759461
+	
+	]]
+	
+	script.Parent.MouseButton1Up:Connect(function()\
+		--[[
+		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	]]
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))()
+	end)
+end
+coroutine.wrap(ZSZFZTJ_fake_script)()
+local function JRKGRD_fake_script() -- TextBox_4.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_4)
+
+	local textBox = script.Parent
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	-- Function to handle Enter
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			
+			local text = textBox.Text
+			
+			local args = {
+				[1] = text
+			}
+	
+			firesignal(game:GetService("ReplicatedStorage").BadgeEvent.OnClientEvent, unpack(args))
+	
+			
+			
+		end
+	end)
+end
+coroutine.wrap(JRKGRD_fake_script)()
+local function BBZZ_fake_script() -- Badges_6.LocalScript 
+	local script = Instance.new('LocalScript', Badges_6)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		game:GetService("ReplicatedStorage").RareWoolabeeEgg:FireServer(0)
+	end)
+end
+coroutine.wrap(BBZZ_fake_script)()
+local function LLIC_fake_script() -- TextBox_5.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_5)
+
+	local textBox = script.Parent
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	-- Function to handle Enter
+	textBox.FocusLost:Connect(function(enterPressed)
+		if enterPressed then
+			
+			local text = textBox.Text
+			
+			local args = {
+				[1] = tonumber(text)
+			}
+	
+			game:GetService("ReplicatedStorage").LeaderstatsRemoteEvent:FireServer(unpack(args))
+	
+			
+			
+		end
+	end)
+end
+coroutine.wrap(LLIC_fake_script)()
+local function ODRNH_fake_script() -- Badges_7.LocalScript 
+	local script = Instance.new('LocalScript', Badges_7)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local remote = ReplicatedStorage:WaitForChild("LeaderstatsRemoteEvent")
+		local check = not script.Value.Value
+	
+		-- Infinite loop
+		while check do
+			local randomNumber = math.random(200, 90000)
+			local args = {
+				[1] = randomNumber
+			}
+	
+			remote:FireServer(unpack(args))
+	
+			task.wait(0) -- small delay to avoid spamming too fast, adjust as needed
+		end
+	end)
+end
+coroutine.wrap(ODRNH_fake_script)()
+local function WNOAXGA_fake_script() -- Badges_8.LocalScript 
+	local script = Instance.new('LocalScript', Badges_8)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local function disableKillParts(obj)
+			-- If it's a part, disable touch
+			if obj:IsA("BasePart") then
+				obj.CanTouch = false
+				obj.Touched:Connect(function() end) -- override touch
+			end
+	
+			-- Disable suspicious scripts
+			if obj:IsA("Script") then
+				local name = string.lower(obj.Name)
+				if string.find(name, "kill") or string.find(name, "damage") or string.find(name, "lava") then
+					obj.Disabled = true
+				end
+			end
+		end
+	
+		-- Run on existing objects
+		for _, obj in ipairs(workspace:GetDescendants()) do
+			disableKillParts(obj)
+		end
+	
+		-- Run on new objects added later
+		workspace.DescendantAdded:Connect(function(obj)
+			disableKillParts(obj)
+		end)
+	
+		print("Anti-kill touch enabled")
+	end)
+end
+coroutine.wrap(WNOAXGA_fake_script)()
+local function BJYGVDA_fake_script() -- Badges_9.LocalScript 
+	local script = Instance.new('LocalScript', Badges_9)
+
+	script.Parent.MouseButton1Up:Connect(function()
+	
+		local Players = game:GetService("Players")
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	
+		local remote = ReplicatedStorage:WaitForChild("SoundEvent")
+	
+		for _, player in pairs(Players:GetPlayers()) do
+			if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				local root = player.Character.HumanoidRootPart
+				local attachment = root:FindFirstChild("SoundAttachment")
+	
+				if attachment then
+					local args = {
+						[1] = attachment,
+						[2] = true
+					}
+	
+					remote:FireServer(unpack(args))
+				end
+			end
+		end
+	
+	
+	end)
+end
+coroutine.wrap(BJYGVDA_fake_script)()
+local function FWEC_fake_script() -- Badges_10.LocalScript 
+	local script = Instance.new('LocalScript', Badges_10)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		while true do
+	
+			task.wait(0.8)
+			local Players = game:GetService("Players")
+			local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	
+			local remote = ReplicatedStorage:WaitForChild("SoundEvent")
+	
+			for _, player in pairs(Players:GetPlayers()) do
+				if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+					local root = player.Character.HumanoidRootPart
+					local attachment = root:FindFirstChild("SoundAttachment")
+	
+					if attachment then
+						local args = {
+							[1] = attachment,
+							[2] = true
+						}
+	
+						remote:FireServer(unpack(args))
+					end
+				end
+			end
+	
+	
+	
+		end
+	
+	end)
+	
+end
+coroutine.wrap(FWEC_fake_script)()
+local function OQVZDY_fake_script() -- Badges_11.LocalScript 
+	local script = Instance.new('LocalScript', Badges_11)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		
+	
+	
+	
+		local Players = game:GetService("Players")
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	
+		local localPlayer = Players.LocalPlayer
+	
+		-- helpers
+		local function getRoot(char)
+			return char and char:FindFirstChild("HumanoidRootPart")
+		end
+	
+		local function getHumanoid(char)
+			return char and char:FindFirstChildOfClass("Humanoid")
+		end
+	
+		-- MAIN ACTION
+		local function react()
+			local char = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+			local root = getRoot(char)
+			local humanoid = getHumanoid(char)
+			if not root or not humanoid then return end
+	
+			local morphRemote = ReplicatedStorage:WaitForChild("MorphEvent")
+	
+			-- save state
+			local oldCF = root.CFrame
+			local oldAnchored = root.Anchored
+	
+			-- STEP 1: go to void (no anchor yet)
+			root.CFrame = CFrame.new(0, -250, 0)
+	
+			-- let it register
+			task.wait(0.25)
+	
+			-- STEP 2: anchor AFTER arriving
+			root.Anchored = true
+	
+			-- wait so server KNOWS you're there
+			task.wait(1.2)
+	
+			-- STEP 3: fire FIRST morph (void)
+			morphRemote:FireServer("Furcorn")
+	
+			-- give server time
+			task.wait(1)
+	
+			-- STEP 4: unanchor before returning
+			root.Anchored = false
+	
+			-- return
+			root.CFrame = oldCF
+	
+			task.wait(0.5)
+	
+			-- STEP 5: fire SECOND morph
+			morphRemote:FireServer("Dragong")
+	
+			-- restore anchor state
+			root.Anchored = oldAnchored
+		end
+	
+		-- debounce
+		local debounce = false
+	
+		-- detect sit
+		local function didPlayerSit(humanoid)
+			for i = 1, 15 do
+				task.wait(0.1)
+				if humanoid and humanoid.Sit then
+					return true
+				end
+			end
+			return false
+		end
+	
+		-- watch prompts
+		local function watchPrompt(prompt)
+			if not prompt:IsA("ProximityPrompt") then return end
+			if not prompt.Parent or prompt.Parent.Name ~= "ClickTrigger" then return end
+	
+			task.spawn(function()
+				while prompt.Parent do
+					task.wait(0.2)
+	
+					if debounce then continue end
+	
+					local promptPart = prompt.Parent
+					if not promptPart:IsA("BasePart") then continue end
+	
+					local promptPos = promptPart.Position
+	
+					for _, plr in pairs(Players:GetPlayers()) do
+						if plr ~= localPlayer and plr.Character then
+							local root = getRoot(plr.Character)
+							local humanoid = getHumanoid(plr.Character)
+	
+							if root and humanoid then
+								local dist = (root.Position - promptPos).Magnitude
+	
+								if dist < 10 then
+									if didPlayerSit(humanoid) then
+										debounce = true
+										react()
+										task.wait(2)
+										debounce = false
+										break
+									end
+								end
+							end
+						end
+					end
+				end
+			end)
+		end
+	
+		-- scan existing
+		for _, obj in pairs(workspace:GetDescendants()) do
+			watchPrompt(obj)
+		end
+	
+		-- new prompts
+		workspace.DescendantAdded:Connect(watchPrompt)
+	
+	
+	
+	end)
+	
+end
+coroutine.wrap(OQVZDY_fake_script)()
+local function UUZCR_fake_script() -- Badges_12.LocalScript 
+	local script = Instance.new('LocalScript', Badges_12)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		local Players = game:GetService("Players")
+		local RS = game:GetService("ReplicatedStorage")
+		local RunService = game:GetService("RunService")
+	
+		local player = Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		local remote = RS:WaitForChild("MorphEvent")
+	
+		-- UI
+		local screenGui = Instance.new("ScreenGui")
+		screenGui.Parent = player:WaitForChild("PlayerGui")
+	
+		local label = Instance.new("TextLabel")
+		label.Size = UDim2.new(1, 0, 0, 50)
+		label.BackgroundTransparency = 1
+		label.TextScaled = true
+		label.TextColor3 = Color3.fromRGB(255,255,255)
+		label.Text = "You can force someone to adopt you and troll them"
+		label.Parent = screenGui
+	
+		-- Anim IDs
+		local hoverAnimId = "rbxassetid://110936244967206"
+		local clickAnimId = "rbxassetid://105999250460625"
+	
+		local currentHighlight
+		local currentTarget
+		local hoverTrack
+		local clickTrack
+	
+		-- Play animation helper
+		local function playAnimation(animId)
+			local char = player.Character
+			if not char then return end
+	
+			local humanoid = char:FindFirstChildOfClass("Humanoid")
+			if not humanoid then return end
+	
+			local anim = Instance.new("Animation")
+			anim.AnimationId = animId
+	
+			local track = humanoid:LoadAnimation(anim)
+			track.Looped = true
+			track:Play()
+	
+			return track
+		end
+	
+		-- Highlight helper
+		local function setHighlight(char)
+			if currentHighlight then
+				currentHighlight:Destroy()
+			end
+	
+			local h = Instance.new("Highlight")
+			h.FillColor = Color3.fromRGB(0,0,255)
+			h.OutlineColor = Color3.fromRGB(0,0,255)
+			h.Adornee = char
+			h.Parent = char
+	
+			currentHighlight = h
+		end
+	
+		-- MAIN LOOP
+		RunService.RenderStepped:Connect(function()
+			local target = mouse.Target
+			if not target then return end
+	
+			local char = target:FindFirstAncestorOfClass("Model")
+			local plr = Players:GetPlayerFromCharacter(char)
+	
+			if plr and plr ~= player then
+				if currentTarget ~= plr then
+					currentTarget = plr
+	
+					-- 🔥 FIRE REMOTE FIRST (IMPORTANT)
+					local args = {
+						[1] = "Nitebear"
+					}
+					remote:FireServer(unpack(args))
+	
+					-- small delay to ensure server processes morph
+					task.wait(0.1)
+	
+					-- THEN do everything else
+					setHighlight(char)
+	
+					if hoverTrack then hoverTrack:Stop() end
+					hoverTrack = playAnimation(hoverAnimId)
+				end
+			else
+				-- reset
+				currentTarget = nil
+	
+				if currentHighlight then
+					currentHighlight:Destroy()
+					currentHighlight = nil
+				end
+	
+				if hoverTrack then
+					hoverTrack:Stop()
+					hoverTrack = nil
+				end
+			end
+		end)
+	
+		-- CLICK
+		local grabbing = false
+		local grabConnection
+	
+		mouse.Button1Down:Connect(function()
+			if not currentTarget then return end
+	
+			local targetChar = currentTarget.Character
+			local myChar = player.Character
+			if not targetChar or not myChar then return end
+	
+			local myRoot = myChar:FindFirstChild("HumanoidRootPart")
+			local targetRoot = targetChar:FindFirstChild("HumanoidRootPart")
+			if not myRoot or not targetRoot then return end
+	
+			-- 🔥 FIRE REMOTE FIRST
+			local args = {
+				[1] = "Nitebear"
+			}
+			remote:FireServer(unpack(args))
+	
+			task.wait(0.1)
+	
+			-- remove highlights
+			for _, v in pairs(workspace:GetDescendants()) do
+				if v:IsA("Highlight") then
+					v:Destroy()
+				end
+			end
+	
+			-- stop old loop if exists
+			if grabConnection then
+				grabConnection:Disconnect()
+			end
+	
+			grabbing = true
+	
+			-- 🔁 LOOP POSITION LOCK
+			grabConnection = RunService.RenderStepped:Connect(function()
+				if not grabbing then return end
+				if not targetRoot.Parent or not myRoot.Parent then return end
+	
+				-- offset in front of target
+				local offset = CFrame.new(0, 0, -2) -- change distance here
+	
+				local newCF = targetRoot.CFrame * offset
+	
+				-- force position
+				myChar:PivotTo(newCF)
+			end)
+	
+			-- switch animation
+			if hoverTrack then hoverTrack:Stop() end
+			if clickTrack then clickTrack:Stop() end
+	
+			clickTrack = playAnimation(clickAnimId)
+		end)
+	
+	
+	end)
+	
+end
+coroutine.wrap(UUZCR_fake_script)()
+local function GXIP_fake_script() -- Badges_13.LocalScript 
+	local script = Instance.new('LocalScript', Badges_13)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		local Players = game:GetService("Players")
+		local RS = game:GetService("ReplicatedStorage")
+		local RunService = game:GetService("RunService")
+	
+		local player = Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		local remote = RS:WaitForChild("MorphEvent")
+	
+		-- UI
+		local screenGui = Instance.new("ScreenGui")
+		screenGui.Parent = player:WaitForChild("PlayerGui")
+	
+		local label = Instance.new("TextLabel")
+		label.Size = UDim2.new(1, 0, 0, 50)
+		label.BackgroundTransparency = 1
+		label.TextScaled = true
+		label.TextColor3 = Color3.fromRGB(255,255,255)
+		label.Text = "Fwog Ride Script Enabled 🐸"
+		label.Parent = screenGui
+	
+		-- Anim IDs
+		local hoverAnimId = "rbxassetid://110936244967206"
+		local rideAnimId = "rbxassetid://99496482278389"
+	
+		local currentTarget
+		local hoverTrack
+		local rideTrack
+		local rideConnection
+	
+		-- Play animation helper
+		local function playAnimation(animId)
+			local char = player.Character
+			if not char then return end
+	
+			local humanoid = char:FindFirstChildOfClass("Humanoid")
+			if not humanoid then return end
+	
+			local anim = Instance.new("Animation")
+			anim.AnimationId = animId
+	
+			local track = humanoid:LoadAnimation(anim)
+			track.Looped = true
+			track:Play()
+	
+			return track
+		end
+	
+		-- MAIN TARGET DETECTION
+		RunService.RenderStepped:Connect(function()
+			local target = mouse.Target
+			if not target then return end
+	
+			local char = target:FindFirstAncestorOfClass("Model")
+			local plr = Players:GetPlayerFromCharacter(char)
+	
+			if plr and plr ~= player then
+				if currentTarget ~= plr then
+					currentTarget = plr
+	
+					-- 🔥 FIRE REMOTE (Fwog)
+					remote:FireServer("Fwog")
+	
+					task.wait(0.1)
+	
+					if hoverTrack then hoverTrack:Stop() end
+					hoverTrack = playAnimation(hoverAnimId)
+				end
+			else
+				currentTarget = nil
+	
+				if hoverTrack then
+					hoverTrack:Stop()
+					hoverTrack = nil
+				end
+			end
+		end)
+	
+		-- CLICK TO RIDE
+		mouse.Button1Down:Connect(function()
+			if not currentTarget then return end
+	
+			local targetChar = currentTarget.Character
+			local myChar = player.Character
+			if not targetChar or not myChar then return end
+	
+			local myRoot = myChar:FindFirstChild("HumanoidRootPart")
+			local targetRoot = targetChar:FindFirstChild("HumanoidRootPart")
+			if not myRoot or not targetRoot then return end
+	
+			-- 🔥 FIRE REMOTE AGAIN
+			remote:FireServer("Fwog")
+	
+			task.wait(0.1)
+	
+			-- stop old loop
+			if rideConnection then
+				rideConnection:Disconnect()
+			end
+	
+			-- stop hover anim
+			if hoverTrack then hoverTrack:Stop() end
+	
+			-- play ride anim
+			if rideTrack then rideTrack:Stop() end
+			rideTrack = playAnimation(rideAnimId)
+	
+			-- LOOP: stay on target
+			rideConnection = RunService.RenderStepped:Connect(function()
+				if not targetRoot.Parent or not myRoot.Parent then return end
+	
+				-- position: slightly above + behind
+				local offset = CFrame.new(0, 1.5, 1.5)
+				local newCF = targetRoot.CFrame * offset
+	
+				myChar:PivotTo(newCF)
+	
+				-- slight forward push (on their back direction)
+				targetRoot.Velocity = targetRoot.CFrame.LookVector * 8
+			end)
+		end)
+	
+	end)
+	
+end
+coroutine.wrap(GXIP_fake_script)()
+local function TPFN_fake_script() -- Badges_14.LocalScript 
+	local script = Instance.new('LocalScript', Badges_14)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local Players = game:GetService("Players")
+		local RS = game:GetService("ReplicatedStorage")
+	
+		local player = Players.LocalPlayer
+		local remote = RS:WaitForChild("MorphEvent")
+	
+		-- 🔤 USER INPUT
+		local message = script.Parent.TextBox.Text
+	
+		-- 🧠 LETTER → ANIMATION MAP
+		local letterAnims = {
+			A = "rbxassetid://140165407607929",
+			B = "rbxassetid://139140056900110",
+			C = "rbxassetid://102706636381416",
+			D = "rbxassetid://119432455866325",
+			E = "rbxassetid://126576517182219",
+			F = "rbxassetid://135227259060683",
+			G = "rbxassetid://71035736575796",
+			H = "rbxassetid://128894072580927",
+			I = "rbxassetid://139968424935712",
+			J = "rbxassetid://110276817462232",
+			K = "rbxassetid://120953677535193",
+			L = "rbxassetid://129708137811096",
+			M = "rbxassetid://98288662279156",
+			N = "rbxassetid://102150051100984",
+			O = "rbxassetid://140577652260082",
+			P = "rbxassetid://101283801577322",
+			Q = "rbxassetid://70764209868433",
+			R = "rbxassetid://119295506247925",
+			S = "rbxassetid://122443734972375",
+			T = "rbxassetid://130055137342700",
+			U = "rbxassetid://135824595429758",
+			V = "rbxassetid://119340476183690",
+			W = "rbxassetid://126908006538812",
+			X = "rbxassetid://83068327805565",
+			Y = "rbxassetid://121054460098923",
+			Z = "rbxassetid://137589447206293"
+		}
+	
+		-- 🎬 PLAY ANIMATION (FORCED)
+		local function playAnim(animId, humanoid)
+			local anim = Instance.new("Animation")
+			anim.AnimationId = animId
+	
+			local track = humanoid:LoadAnimation(anim)
+			track.Priority = Enum.AnimationPriority.Action4 -- 🔥 highest priority
+			track.Looped = false
+			track:Play()
+	
+			return track
+		end
+	
+		-- 🔥 START
+		remote:FireServer("PomPom")
+	
+		task.wait(0.4)
+	
+		local char = player.Character or player.CharacterAdded:Wait()
+		local humanoid = char:WaitForChild("Humanoid")
+	
+		-- 🛑 DISABLE DEFAULT ANIMATIONS
+		local animateScript = char:FindFirstChild("Animate")
+		if animateScript then
+			animateScript.Disabled = true
+		end
+	
+		-- 🧊 FREEZE MOVEMENT (prevents walk/run overriding)
+		local oldWalk = humanoid.WalkSpeed
+		local oldJump = humanoid.JumpPower
+	
+		humanoid.WalkSpeed = 0
+		humanoid.JumpPower = 0
+		humanoid.AutoRotate = false
+	
+		-- ▶️ PLAY MESSAGE ONCE
+		for letter in message:gmatch(".") do
+			letter = letter:upper()
+	
+			local animId = letterAnims[letter]
+			if animId then
+				local track = playAnim(animId, humanoid)
+	
+				local length = track.Length
+				task.wait(length > 0 and length or 0.5)
+	
+				track:Stop()
+			else
+				task.wait(0.3)
+			end
+		end
+	
+		-- 🔄 RETURN TO NORMAL
+		if animateScript then
+			animateScript.Disabled = false
+		end
+	
+		humanoid.WalkSpeed = oldWalk
+		humanoid.JumpPower = oldJump
+		humanoid.AutoRotate = true
+	
+		-- optional: revert morph
+		remote:FireServer("Normal")
+	end)
+end
+coroutine.wrap(TPFN_fake_script)()
+local function ILKXMGQ_fake_script() -- Badges_15.LocalScript 
+	local script = Instance.new('LocalScript', Badges_15)
+
+	local Players = game:GetService("Players")
+	local RS = game:GetService("ReplicatedStorage")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	local remote = RS:WaitForChild("MorphEvent")
+	
+	remote:FireServer("Voidcorn")
+	
+	-- 🎬 ANIMS
+	local triggerAnimId = "rbxassetid://129469072457859"
+	local idleAnimId = "rbxassetid://115268975352566"
+	local moveAnimId = "rbxassetid://100019669366103"
+	
+	local stareTime = 0
+	local targetPlayer = nil
+	local highlight = nil
+	local triggered = false
+	
+	-- 🎨 highlight
+	local function createHighlight(char)
+		if highlight then highlight:Destroy() end
+	
+		local h = Instance.new("Highlight")
+		h.FillTransparency = 0.5
+		h.OutlineTransparency = 0
+		h.Adornee = char
+		h.Parent = char
+	
+		highlight = h
+	end
+	
+	-- 🎬 anim
+	local function playAnim(humanoid, id)
+		local anim = Instance.new("Animation")
+		anim.AnimationId = id
+	
+		local track = humanoid:LoadAnimation(anim)
+		track.Priority = Enum.AnimationPriority.Action4
+		track:Play()
+	
+		return track
+	end
+	
+	-- 🔍 better "are we looking at them?"
+	local function getLookTarget()
+		local camPos = camera.CFrame.Position
+		local lookVec = camera.CFrame.LookVector
+	
+		local bestPlayer = nil
+		local bestDot = 0.97 -- tolerance (closer to 1 = stricter)
+	
+		for _, plr in pairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+				local targetPos = plr.Character.HumanoidRootPart.Position
+				local dir = (targetPos - camPos).Unit
+	
+				local dot = lookVec:Dot(dir)
+	
+				if dot > bestDot then
+					bestDot = dot
+					bestPlayer = plr
+				end
+			end
+		end
+	
+		return bestPlayer
+	end
+	
+	-- 🔁 LOOP
+	RunService.RenderStepped:Connect(function(dt)
+		if triggered then return end
+	
+		local plr = getLookTarget()
+	
+		if plr then
+			if targetPlayer ~= plr then
+				targetPlayer = plr
+				stareTime = 0
+				createHighlight(plr.Character)
+			end
+	
+			stareTime += dt
+	
+			-- 🔴 color shift
+			if highlight then
+				local t = math.clamp(stareTime / 5, 0, 1)
+				highlight.FillColor = Color3.new(1, 1 - t, 1 - t)
+				highlight.OutlineColor = Color3.new(1, 0, 0)
+			end
+	
+			-- ⏱ trigger
+			if stareTime >= 5 then
+				triggered = true
+	
+				local char = player.Character
+				local humanoid = char:WaitForChild("Humanoid")
+	
+				local animate = char:FindFirstChild("Animate")
+				if animate then animate.Disabled = true end
+	
+				-- freeze
+				humanoid.WalkSpeed = 0
+				humanoid.JumpPower = 0
+				humanoid.AutoRotate = false
+	
+				-- play anim
+				local track = playAnim(humanoid, triggerAnimId)
+				task.wait(track.Length > 0 and track.Length or 2)
+	
+				-- restore animate
+				if animate then
+					animate.Disabled = false
+	
+					if animate:FindFirstChild("idle") then
+						animate.idle.Animation1.AnimationId = idleAnimId
+						animate.idle.Animation2.AnimationId = idleAnimId
+					end
+	
+					if animate:FindFirstChild("walk") then
+						animate.walk.WalkAnim.AnimationId = moveAnimId
+					end
+	
+					if animate:FindFirstChild("run") then
+						animate.run.RunAnim.AnimationId = moveAnimId
+					end
+				end
+	
+				-- 🚀 chase
+				local targetChar = targetPlayer.Character
+				local targetRoot = targetChar and targetChar:FindFirstChild("HumanoidRootPart")
+	
+				if targetRoot then
+					humanoid.WalkSpeed = 120
+	
+					RunService.RenderStepped:Connect(function()
+						if not targetRoot.Parent then return end
+	
+						humanoid:MoveTo(targetRoot.Position)
+					end)
+				end
+			end
+	
+		else
+			-- reset
+			targetPlayer = nil
+			stareTime = 0
+	
+			if highlight then
+				highlight:Destroy()
+				highlight = nil
+			end
+		end
+	end)
+end
+coroutine.wrap(ILKXMGQ_fake_script)()
+local function OMILVD_fake_script() -- Badges_16.LocalScript 
+	local script = Instance.new('LocalScript', Badges_16)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local Players = game:GetService("Players")
+		local RS = game:GetService("ReplicatedStorage")
+	
+		local player = Players.LocalPlayer
+		local remote = RS:WaitForChild("MorphEvent")
+	
+		local animId = "rbxassetid://137644260443394"
+	
+		-- 🔥 FIRE MORPH
+		remote:FireServer("Mammott")
+	
+		task.wait(0.4)
+	
+		local char = player.Character or player.CharacterAdded:Wait()
+		local humanoid = char:WaitForChild("Humanoid")
+	
+		-- 🛑 DISABLE Animate (not destroy, so movement still works better)
+		local animate = char:FindFirstChild("Animate")
+		if animate then
+			animate.Disabled = true
+		end
+	
+		-- 🧹 STOP ALL CURRENT ANIMS
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			track:Stop()
+		end
+	
+		-- 🎬 PLAY LOOPED ANIMATION
+		local anim = Instance.new("Animation")
+		anim.AnimationId = animId
+	
+		local track = humanoid:LoadAnimation(anim)
+		track.Priority = Enum.AnimationPriority.Action4
+		track.Looped = true
+		track:Play()
+	
+		-- 🔒 KEEP IT DOMINANT (without freezing movement)
+		task.spawn(function()
+			while true do
+				task.wait(0.3)
+	
+				if not track.IsPlaying then
+					track:Play()
+				end
+	
+				-- stop other animations BUT don't interfere with movement
+				for _, t in pairs(humanoid:GetPlayingAnimationTracks()) do
+					if t ~= track and t.Priority ~= Enum.AnimationPriority.Action4 then
+						t:Stop()
+					end
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(OMILVD_fake_script)()
+local function VXSQG_fake_script() -- Badges_17.LocalScript 
+	local script = Instance.new('LocalScript', Badges_17)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local Players = game:GetService("Players")
+		local RS = game:GetService("ReplicatedStorage")
+		local RunService = game:GetService("RunService")
+		local TweenService = game:GetService("TweenService")
+	
+		local player = Players.LocalPlayer
+		local mouse = player:GetMouse()
+		local remote = RS:WaitForChild("MorphEvent")
+	
+		local currentTarget
+		local currentHighlight
+	
+		-- 🎨 highlight
+		local function setHighlight(char)
+			if currentHighlight then currentHighlight:Destroy() end
+	
+			local h = Instance.new("Highlight")
+			h.FillColor = Color3.fromRGB(150, 0, 255)
+			h.OutlineColor = Color3.fromRGB(150, 0, 255)
+			h.Adornee = char
+			h.Parent = char
+	
+			currentHighlight = h
+		end
+	
+		-- 🔍 TARGET LOOP
+		RunService.RenderStepped:Connect(function()
+			local target = mouse.Target
+			if not target then return end
+	
+			local char = target:FindFirstAncestorOfClass("Model")
+			local plr = Players:GetPlayerFromCharacter(char)
+	
+			if plr and plr ~= player then
+				if currentTarget ~= plr then
+					currentTarget = plr
+	
+					remote:FireServer("Whisp")
+					task.wait(0.1)
+	
+					setHighlight(char)
+				end
+			else
+				currentTarget = nil
+	
+				if currentHighlight then
+					currentHighlight:Destroy()
+					currentHighlight = nil
+				end
+			end
+		end)
+	
+		-- 👻 CLICK JUMPSCARE
+		mouse.Button1Down:Connect(function()
+			if not currentTarget then return end
+	
+			local myChar = player.Character
+			local targetChar = currentTarget.Character
+			if not myChar or not targetChar then return end
+	
+			local myRoot = myChar:FindFirstChild("HumanoidRootPart")
+			local targetRoot = targetChar:FindFirstChild("HumanoidRootPart")
+			if not myRoot or not targetRoot then return end
+	
+			remote:FireServer("Whisp")
+			task.wait(0.1)
+	
+			-- 🔒 Freeze player to prevent flinging
+			local wasAnchored = myRoot.Anchored
+			myRoot.Anchored = true
+	
+			-- save original
+			local originalCF = myRoot.CFrame
+	
+			-- remove highlight
+			if currentHighlight then
+				currentHighlight:Destroy()
+			end
+	
+			-- 🎲 RANDOM OFFSET (unpredictable positioning)
+			local randomOffset = Vector3.new(
+				math.random(-6,6),
+				math.random(10,16), -- higher above
+				math.random(-6,6)
+			)
+	
+			local startPos = targetRoot.Position + randomOffset
+			local lookCF = CFrame.new(startPos, targetRoot.Position)
+			myChar:PivotTo(lookCF)
+	
+			task.wait(0.15)
+	
+			-- 😈 TARGET FACE POSITION (slightly further out)
+			local faceOffset = Vector3.new(0, 0, -3)
+			local targetCF = targetRoot.CFrame * CFrame.new(faceOffset)
+			targetCF = CFrame.new(targetCF.Position, targetRoot.Position)
+	
+			-- 🧲 TWEEN INTO FACE
+			local tween = TweenService:Create(
+				myRoot,
+				TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+				{CFrame = targetCF}
+			)
+			tween:Play()
+			tween.Completed:Wait()
+	
+			-- 😈 STICK TO FACE (3s)
+			local duration = 3
+			local start = tick()
+	
+			local connection
+			connection = RunService.RenderStepped:Connect(function()
+				if tick() - start >= duration then
+					connection:Disconnect()
+					return
+				end
+	
+				if targetRoot.Parent then
+					local cf = targetRoot.CFrame * CFrame.new(0, 0, -3)
+					cf = CFrame.new(cf.Position, targetRoot.Position)
+					myChar:PivotTo(cf)
+				end
+			end)
+	
+			task.wait(duration)
+	
+			-- 🔙 RETURN
+			myChar:PivotTo(originalCF)
+	
+			-- 🔓 Unfreeze
+			myRoot.Anchored = wasAnchored
+		end)
+	end)
+end
+coroutine.wrap(VXSQG_fake_script)()
+local function DZDN_fake_script() -- Badges_18.LocalScript 
+	local script = Instance.new('LocalScript', Badges_18)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(DZDN_fake_script)()
+local function IAZTM_fake_script() -- Badges_19.LocalScript 
+	local script = Instance.new('LocalScript', Badges_19)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+	end)
+end
+coroutine.wrap(IAZTM_fake_script)()
+local function CYAMFZT_fake_script() -- Badges_20.LocalScript 
+	local script = Instance.new('LocalScript', Badges_20)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local Players = game:GetService("Players")
+		local player = Players.LocalPlayer
+		local workspace = game:GetService("Workspace")
+	
+		local function getCharacter()
+			return player.Character or player.CharacterAdded:Wait()
+		end
+	
+		-- Fuzzy name check for "coin-like" folders
+		local function isCoinRelated(name)
+			name = name:lower()
+	
+			return name:find("coin") 
+				or name:find("coien") 
+				or name:find("coein") 
+				or name == "co"
+		end
+	
+		-- Get all CoinPickup objects (full scan + folder filtering)
+		local function getAllCoins()
+			local coins = {}
+	
+			for _, obj in pairs(workspace:GetDescendants()) do
+				if obj.Name == "CoinPickup" then
+					table.insert(coins, obj)
+				elseif obj:IsA("Folder") and isCoinRelated(obj.Name) then
+					for _, sub in pairs(obj:GetDescendants()) do
+						if sub.Name == "CoinPickup" then
+							table.insert(coins, sub)
+						end
+					end
+				end
+			end
+	
+			return coins
+		end
+	
+		-- Get CFrame safely
+		local function getCFrame(obj)
+			if obj:IsA("BasePart") then
+				return obj.CFrame
+			elseif obj:IsA("Model") then
+				if obj.PrimaryPart then
+					return obj.PrimaryPart.CFrame
+				else
+					local part = obj:FindFirstChildWhichIsA("BasePart")
+					if part then
+						return part.CFrame
+					end
+				end
+			end
+		end
+	
+		-- Force chunks to load (StreamingEnabled support)
+		local function loadAround(position)
+			local char = getCharacter()
+			local root = char:WaitForChild("HumanoidRootPart")
+	
+			-- move slightly toward area to trigger streaming load
+			root.CFrame = CFrame.new(position + Vector3.new(0, 10, 0))
+			task.wait(0.3)
+		end
+	
+		-- Teleport loop
+		local function teleportToCoins()
+			local char = getCharacter()
+			local root = char:WaitForChild("HumanoidRootPart")
+	
+			local coins = getAllCoins()
+	
+			for _, coin in pairs(coins) do
+				local cf = getCFrame(coin)
+	
+				if cf then
+					-- Ensure chunk loads
+					loadAround(cf.Position)
+	
+					-- Final teleport
+					root.CFrame = cf + Vector3.new(0, 3, 0)
+					task.wait(0)
+				end
+			end
+		end
+	
+		-- Run
+		teleportToCoins()
+	end)
+end
+coroutine.wrap(CYAMFZT_fake_script)()
+local function EQNPU_fake_script() -- Badges_21.LocalScript 
+	local script = Instance.new('LocalScript', Badges_21)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local args = {
+			[1] = "start"
+		}
+	
+		game:GetService("ReplicatedStorage").TheaterEvent:FireServer(unpack(args))
+	
+		local RS = game:GetService("ReplicatedStorage")
+	
+	
+		local remote = RS:WaitForChild("MorphEvent")
+	
+		remote:FireServer("Epic Wubbox (Gold Island)")
+	
+		local tppart = workspace.DistantHomes.Theater.theater["Old Microphone"].Material_91
+	
+		local char = game.Players.LocalPlayer.Character
+		char.HumanoidRootPart.CFrame = tppart.CFrame
+		
+	end)
+end
+coroutine.wrap(EQNPU_fake_script)()
+local function FTZXA_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(FTZXA_fake_script)()
